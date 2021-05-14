@@ -16,7 +16,7 @@ export default function Home({ navigation }) {
           <Text>Pedir comida nunca foi tão fácil</Text>
           <Image source={banner} />
           <Text>Permitir localização</Text>
-          <Text>Para descobrir restaurantes que entregam em sua localidade</Text>
+          <Text style={{ textAlign: 'center' }}>Para descobrir restaurantes que entregam em sua localidade</Text>
         </View>
         <ButtonContainer>
           <Button text="PULAR" onPress={() => navigation.navigate('Main')} />
